@@ -2,6 +2,7 @@ import React from "react";
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { Navbar } from "./Components/Navbar/Navbar";
+import Docker from "./Components/SideNav/Docker";
 import IntrotoLinux from "./Components/SideNav/IntrotoLinux";
 import LinuxHistory from "./Components/SideNav/LinuxHistory";
 
@@ -20,6 +21,7 @@ const App = () => {
             <Route path="linuxhistory" element={<LinuxHistory />} />
 
             <Route path="linuxintro" element={<IntrotoLinux />} />
+            <Route path="docker" element={<Docker />} />
           </Route>
 
           <Route path="/terminal" element={<Terminal />} />

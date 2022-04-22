@@ -1,7 +1,9 @@
 
   .body-container{
+    display: flex;
     margin: 8px;
     background-color: #1B2A3B;
+    /* background-color: white; */
     border-radius: 10px;
     height: 84%;
     width: 99%;
@@ -21,6 +23,7 @@
     overflow-y: scroll;
   }
   .list-item{
+    
     width: 90%;
     padding: 15px;
     color: white;
@@ -38,6 +41,12 @@
   
   .side-nav-container::-webkit-scrollbar {
     display: none;
+  }
+
+  .test{
+    border: 1px solid red;
+    width: 75%;
+    background-color: white;
   }
   /* .App-logo {
     height: 40vmin;

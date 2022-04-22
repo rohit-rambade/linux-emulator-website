@@ -1,22 +1,42 @@
-import React from 'react'
-import SideNavBar from './SideNavBar'
-import './Body.css'
+import React from "react";
+import SideNavBar from "./SideNavBar";
+// import { BrowserRouter as Router,  Route, Routes } from 'react-router-dom';
+import "./Body.css";
+import { Outlet } from "react-router-dom";
+
+// import LinuxHistory from './LinuxHistory';
 
 const Body = () => {
-    const navOptions = ["Basic Linux Commands", "Kubernetes", "Docker"];
+  const navOptions = [
+    {
+      title: "Linux History",
+      path: "linuxhistory",
+    },
+
+    { title: "Introduction to Linux",
+     path: "linuxintro" 
+    },
+    { title: "Docker",
+     path: "docker" 
+    },
+  ];
+  //  , "Docker","Docker","Docker","Docker", ];
   return (
-    <div className='body-container'>
-      <ul className='side-nav-container'>
+    <div className="body-container">
+      <ul className="side-nav-container">
         {/* <ul> */}
-        {
-            navOptions.map((opt)=>(
-                <SideNavBar option= {opt}/>
-            ))
-        }
+        {navOptions.map((opt, i) => (
+          <SideNavBar option={opt.title} path={opt.path} key={i} />
+        ))}
         {/* </ul> */}
       </ul>
-    </div>
-  )
-}
+      <div className="test">
+          <Outlet/>
 
-export default Body
+
+      </div>
+    </div>
+  );
+};
+
+export default Body;

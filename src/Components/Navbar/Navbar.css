@@ -22,7 +22,7 @@ i {
   padding: 0px;
 }
 #navbarSupportedContent {
-  
+  justify-content: right;
   overflow: hidden;
   position: relative;
 
