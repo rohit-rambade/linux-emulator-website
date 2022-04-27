@@ -5,6 +5,7 @@ import { Navbar } from "./Components/Navbar/Navbar";
 import Docker from "./Components/SideNav/Docker";
 import IntrotoLinux from "./Components/SideNav/IntrotoLinux";
 import LinuxHistory from "./Components/SideNav/LinuxHistory";
+import LinuxFiles from "./Components/SideNav/LinuxFiles";
 
 import { About } from "./pages/About/About";
 import { Home } from "./pages/Home/Home";
@@ -22,6 +23,7 @@ const App = () => {
 
             <Route path="linuxintro" element={<IntrotoLinux />} />
             <Route path="docker" element={<Docker />} />
+            <Route path="docker" element={<LinuxFiles />} />
           </Route>
 
           <Route path="/terminal" element={<Terminal />} />
