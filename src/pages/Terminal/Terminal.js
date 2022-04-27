@@ -7,10 +7,10 @@ export const Terminal = () => {
   
   return (
     <>
-    Terminal
+   
     <div className='Terminal'>
       <div className="terminal_head">
-		    <i>root@localhost:DockerWebsite</i>
+		    <i>root@localhost:OnlineTerminal</i>
 	  	</div>
 
       <Terminal_input />
