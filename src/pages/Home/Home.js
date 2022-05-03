@@ -6,9 +6,6 @@ export const Home = () => {
   return (
     <div>
          <Body/>
-         
-
-
     </div>
   )
 }

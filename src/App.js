@@ -19,8 +19,8 @@ const App = () => {
 
         <Routes>
           <Route path="/" exact element={<Home />}>
+          <Route path="/" element={<LinuxHistory />} />
             <Route path="linuxhistory" element={<LinuxHistory />} />
-
             <Route path="linuxintro" element={<IntrotoLinux />} />
             <Route path="docker" element={<Docker />} />
             <Route path="docker" element={<LinuxFiles />} />

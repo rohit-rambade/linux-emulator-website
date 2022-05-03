@@ -15,7 +15,7 @@ function Terminal_input() {
     
     var i = document.getElementById("in1").value
     var xhr = new XMLHttpRequest();
-    xhr.open("GET" , "http://65.2.150.152/cgi-bin/docker.py?x="+i,true);
+    xhr.open("GET" , "https://cors-everywhere.herokuapp.com/http://65.2.122.197/cgi-bin/docker.py?x="+i,true);
     xhr.send()
     xhr.onload = function (){
       const output1 = xhr.responseText;
@@ -29,6 +29,7 @@ function Terminal_input() {
       setOutput(opArray)
       console.log(output);
       //   document.getElementById("d1").innerHTML = output;
+      setCmdInput("")
     }
     
     }
@@ -39,26 +40,23 @@ function Terminal_input() {
     <div id="terminal_block">
 			  <pre>
           {
-            // output.lenght !== 0 && output !== null?
-            output.map( (obj, i) =>(
-              // <div key={i} className="cmdContainer">
+            output.map( (obj, i) =>(    
               <>
+              <div className='cmd'>{obj.cmd}</div>
                 <div id = "d1" >{obj.output}</div>
-                <div className='cmd'>{obj.cmd}</div>
+                
               </>
-              // </div>
             )) 
-            // : <div className="di"></div>
           }
 			  </pre>
-        {/* <form> */}
+      
           <div>
             [root@localhost~]# <input id = "in1" placeholder="Enter your command here" value={cmdInput} onChange={handleChange}/>
           </div>
           <div id="button_div">
-            <button  onClick={() => docker_cmd()} id="submit_btn">Click</button>
+            <button  onClick={docker_cmd} id="submit_btn">Click</button>
           </div>
-        {/* </form> */}
+        
     </div>
   )
 }
