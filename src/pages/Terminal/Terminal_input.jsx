@@ -15,7 +15,7 @@ function Terminal_input() {
     
     var i = document.getElementById("in1").value
     var xhr = new XMLHttpRequest();
-    xhr.open("GET" , "https://cors-everywhere.herokuapp.com/http://65.2.122.197/cgi-bin/docker.py?x="+i,true);
+    xhr.open("GET" , "https://cors-everywhere.herokuapp.com/http://3.110.54.73/cgi-bin/docker.py?x="+i,true);
     xhr.send()
     xhr.onload = function (){
       const output1 = xhr.responseText;
