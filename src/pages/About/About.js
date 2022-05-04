@@ -21,66 +21,121 @@ export const About = () => {
             practicing Linux concepts. Along with this there is chatbot
             which gives you easy to help support facility.
         </p>
-      
+        <section id="usedtech">
+
+        <div className="usedtech">
+            <div className="container">
+
+                <div className="usedtech-title">
+
+                    <h2>Technology Used</h2>
+                </div>
+
+
+                <div className="usedtech-list">
+                    <div className="tech-card">
+                        <div className="tech-icon"><i className="devicon-python-plain colored"></i></div><label
+                            className="tech-name">Python</label>
+                    </div>
+                    <div className="tech-card">
+                        <div className="tech-icon"><i className="devicon-c-plain colored"></i></div><label
+                            className="tech-name">C</label>
+                    </div>
+                    <div className="tech-card">
+                        <div className="tech-icon"><i className="devicon-linux-plain colored"></i></div><label
+                            className="tech-name">Linux</label>
+                    </div>
+                    <div className="tech-card">
+                        <div className="tech-icon"><i className="devicon-github-original colored"></i></div><label
+                            className="tech-name">GitHub</label>
+                    </div>
+                    <div className="tech-card">
+                        <div className="tech-icon"><i className="devicon-docker-plain colored"></i></div><label
+                            className="tech-name">Docker</label>
+                    </div>
+                    <div className="tech-card">
+                        <div className="tech-icon"><i className="devicon-kubernetes-plain colored"></i></div><label
+                            className="tech-name">Kubernets</label>
+                    </div>
+                    <div className="tech-card">
+                        <div className="tech-icon"><i className="devicon-googlecloud-plain colored"></i></div><label
+                            className="tech-name">GoogleCloud</label>
+                    </div>
+                    <div className="tech-card">
+                        <div className="tech-icon"><i className="devicon-html5-plain colored"></i></div><label
+                            className="tech-name">HTML</label>
+                    </div>
+                    <div className="tech-card">
+                        <div className="tech-icon"><i className="devicon-css3-plain colored"></i></div><label
+                            className="tech-name">CSS</label>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+
+    </section>
     </div>
     
        
   )
 }
 
-  // <section id="skills">
+  <section id="usedtech">
 
-  //       <div className="skills">
-  //           <div className="container">
+        <div className="usedtech">
+            <div className="container">
 
-  //               <div className="skills-title">
+                <div className="usedtech-title">
 
-  //                   <h2>Skills</h2>
-  //               </div>
-
-
-  //               <div className="skills-list">
-  //                   <div className="skill-card">
-  //                       <div className="skill-icon"><i className="devicon-python-plain colored"></i></div><label
-  //                           className="skill-name">Python</label>
-  //                   </div>
-  //                   <div className="skill-card">
-  //                       <div className="skill-icon"><i className="devicon-c-plain colored"></i></div><label
-  //                           className="skill-name">C</label>
-  //                   </div>
-  //                   <div className="skill-card">
-  //                       <div className="skill-icon"><i className="devicon-linux-plain colored"></i></div><label
-  //                           className="skill-name">Linux</label>
-  //                   </div>
-  //                   <div className="skill-card">
-  //                       <div className="skill-icon"><i className="devicon-github-original colored"></i></div><label
-  //                           className="skill-name">GitHub</label>
-  //                   </div>
-  //                   <div className="skill-card">
-  //                       <div className="skill-icon"><i className="devicon-docker-plain colored"></i></div><label
-  //                           className="skill-name">Docker</label>
-  //                   </div>
-  //                   <div className="skill-card">
-  //                       <div className="skill-icon"><i className="devicon-kubernetes-plain colored"></i></div><label
-  //                           className="skill-name">Kubernets</label>
-  //                   </div>
-  //                   <div className="skill-card">
-  //                       <div className="skill-icon"><i className="devicon-googlecloud-plain colored"></i></div><label
-  //                           className="skill-name">GoogleCloud</label>
-  //                   </div>
-  //                   <div className="skill-card">
-  //                       <div className="skill-icon"><i className="devicon-html5-plain colored"></i></div><label
-  //                           className="skill-name">HTML</label>
-  //                   </div>
-  //                   <div className="skill-card">
-  //                       <div className="skill-icon"><i className="devicon-css3-plain colored"></i></div><label
-  //                           className="skill-name">CSS</label>
-  //                   </div>
-  //               </div>
+                    <h2>usedtech</h2>
+                </div>
 
 
+                <div className="usedtech-list">
+                    <div className="tech-card">
+                        <div className="tech-icon"><i className="devicon-python-plain colored"></i></div><label
+                            className="tech-name">Python</label>
+                    </div>
+                    <div className="tech-card">
+                        <div className="tech-icon"><i className="devicon-c-plain colored"></i></div><label
+                            className="tech-name">C</label>
+                    </div>
+                    <div className="tech-card">
+                        <div className="tech-icon"><i className="devicon-linux-plain colored"></i></div><label
+                            className="tech-name">Linux</label>
+                    </div>
+                    <div className="tech-card">
+                        <div className="tech-icon"><i className="devicon-github-original colored"></i></div><label
+                            className="tech-name">GitHub</label>
+                    </div>
+                    <div className="tech-card">
+                        <div className="tech-icon"><i className="devicon-docker-plain colored"></i></div><label
+                            className="tech-name">Docker</label>
+                    </div>
+                    <div className="tech-card">
+                        <div className="tech-icon"><i className="devicon-kubernetes-plain colored"></i></div><label
+                            className="tech-name">Kubernets</label>
+                    </div>
+                    <div className="tech-card">
+                        <div className="tech-icon"><i className="devicon-googlecloud-plain colored"></i></div><label
+                            className="tech-name">GoogleCloud</label>
+                    </div>
+                    <div className="tech-card">
+                        <div className="tech-icon"><i className="devicon-html5-plain colored"></i></div><label
+                            className="tech-name">HTML</label>
+                    </div>
+                    <div className="tech-card">
+                        <div className="tech-icon"><i className="devicon-css3-plain colored"></i></div><label
+                            className="tech-name">CSS</label>
+                    </div>
+                </div>
 
-  //           </div>
-  //       </div>
 
-  //   </section>
+
+            </div>
+        </div>
+
+    </section>
