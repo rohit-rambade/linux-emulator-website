@@ -17,6 +17,7 @@ import Uname_command from "./Components/SideNav/Uname_command";
 import { About } from "./pages/About/About";
 import { Home } from "./pages/Home/Home";
 import { Terminal } from "./pages/Terminal/Terminal";
+import Basic_cmd from "./Components/SideNav/Basic_cmd";
 
 const App = () => {
   return (
@@ -29,8 +30,8 @@ const App = () => {
           <Route path="/" element={<LinuxHistory />} />
             <Route path="linuxhistory" element={<LinuxHistory />} />
             <Route path="linuxintro" element={<IntrotoLinux />} />
-            <Route path="LinuxFiles" element={<LinuxFiles />} />
-            <Route path="date_command" element={<Date_command />} />
+            <Route path="basic_cmd" element={<Basic_cmd />} />
+            {/* <Route path="date_command" element={<Date_command />} />
             <Route path="cal_command" element={<Cal_command />} />
             <Route path="ls_command" element={<Ls_command />} />
             <Route path="pwd_command" element={<Pwd_command />} />
@@ -38,7 +39,7 @@ const App = () => {
             <Route path="echo_command" element={<Echo_command />} />
             <Route path="ping_command" element={<Ping_command />} />
             <Route path="whoami_command" element={<Whoami_command />} />
-            <Route path="uname_command" element={<Uname_command />} />
+            <Route path="uname_command" element={<Uname_command />} /> */}
            
            
 
