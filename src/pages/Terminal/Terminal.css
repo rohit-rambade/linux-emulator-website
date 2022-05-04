@@ -1,9 +1,8 @@
 body{
     background-color: rgb(59, 57, 57);
-    background-image: url("rhel8.png");
+    background-image: url("img.jpg");
     background-repeat:repeat;
 }
-
 
 
 .terminal_head{

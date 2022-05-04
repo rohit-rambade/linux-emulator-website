@@ -5,12 +5,14 @@
    position: relative;
    justify-content: center;
    border: 2px solid green;
+   color: white;
     /* border-top: solid green;
     border-bottom: solid green; */
     
 }
 
 .abt p{
+    color: white;
     font-size: 21px;
     margin-left: 80px;
     margin-right: 80px;
@@ -20,20 +22,24 @@
 
 /* usedtech */
 .usedtech {
+    background-color:black;
+    color: white;
     margin-top: 100px;
     margin-bottom: 150px;
     height: 25vh;
   
   
   }
+
   
   .usedtech-title h2 {
+      color: white;
     padding-top: 7px;
     margin-top: 100px;
     width: 100%;
     text-align: center;
     margin: 0 auto;
-    color: #000000;
+    
     font-size: 35px;
     font-weight: 600px;
     font-family: 'Josefin Sans', sans-serif;
@@ -41,10 +47,11 @@
   }
   
   .usedtech-title h2::after {
+      color: white;
     content: "";
     width: 80px;
     height: 3px;
-    background-color: #84DAA8;
+ 
     margin: 0 auto;
     display: block;
     margin-top: 10px;

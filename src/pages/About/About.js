@@ -28,46 +28,45 @@ export const About = () => {
 
                 <div className="usedtech-title">
 
-                    <h2>Technology Used</h2>
+                    <h2 id='tools-tech'>Tools &amp; Technology</h2>
                 </div>
 
 
                 <div className="usedtech-list">
+                <div className="tech-card">
+                        <div className="tech-icon"><i className="devicon-react-original-wordmark colored"></i></div><label
+                            className="tech-name">ReactJS</label>
+                    </div>
                     <div className="tech-card">
                         <div className="tech-icon"><i className="devicon-python-plain colored"></i></div><label
                             className="tech-name">Python</label>
                     </div>
+                    
                     <div className="tech-card">
-                        <div className="tech-icon"><i className="devicon-c-plain colored"></i></div><label
-                            className="tech-name">C</label>
-                    </div>
-                    <div className="tech-card">
-                        <div className="tech-icon"><i className="devicon-linux-plain colored"></i></div><label
+                        <div className="tech-icon"><i className="devicon-linux-plain"></i></div><label
                             className="tech-name">Linux</label>
                     </div>
+                    
                     <div className="tech-card">
-                        <div className="tech-icon"><i className="devicon-github-original colored"></i></div><label
-                            className="tech-name">GitHub</label>
+                        <div className="tech-icon"><i className="devicon-amazonwebservices-original colored"></i></div><label
+                            className="tech-name">AWS</label>
                     </div>
                     <div className="tech-card">
                         <div className="tech-icon"><i className="devicon-docker-plain colored"></i></div><label
                             className="tech-name">Docker</label>
                     </div>
                     <div className="tech-card">
-                        <div className="tech-icon"><i className="devicon-kubernetes-plain colored"></i></div><label
-                            className="tech-name">Kubernets</label>
+                        <div className="tech-icon"><i className="devicon-apache-plain-wordmark"></i></div><label
+                            className="tech-name">Apache Webserver</label>
+                    </div>
+                    
+                    <div className="tech-card">
+                        <div className="tech-icon"><i className="devicon-github-original"></i></div><label
+                            className="tech-name">GitHub</label>
                     </div>
                     <div className="tech-card">
-                        <div className="tech-icon"><i className="devicon-googlecloud-plain colored"></i></div><label
-                            className="tech-name">GoogleCloud</label>
-                    </div>
-                    <div className="tech-card">
-                        <div className="tech-icon"><i className="devicon-html5-plain colored"></i></div><label
-                            className="tech-name">HTML</label>
-                    </div>
-                    <div className="tech-card">
-                        <div className="tech-icon"><i className="devicon-css3-plain colored"></i></div><label
-                            className="tech-name">CSS</label>
+                        <div className="tech-icon"><i className="devicon-vscode-plain colored"></i></div><label
+                            className="tech-name">VS Code</label>
                     </div>
                 </div>
 
